@@ -96,13 +96,16 @@ I added the three lab users and devices to the appropriate groups as they became
 
 ## 7️⃣ Configure Intune RBAC
 
-1. I reviewed **Tenant administration → Roles → All roles**.
-2. I reviewed the available built-in Intune administrative roles.
-3. I identified the roles required for device management activities.
-4. I used role-based access rather than relying on Global Administrator access for every Intune task.
+1. I reviewed **Tenant administration → Roles → All roles** and identified the **Intune Administrator** role.
+2. I created the Microsoft Entra security group **`PRX-Intune-Administrators`**.
+3. I added **Stefan Akinnimi** as a member of the group.
+4. I assigned the **Intune Administrator** role to `PRX-Intune-Administrators`.
+5. I scoped the role assignment to **`PRX-Intune-All-Devices`** so the administrator can manage the devices in my Intune lab.
+6. This allows me to demonstrate group-based role assignment and least-privilege administration instead of relying solely on Global Administrator access.
+
 
 ### 📸 Screenshot
-![Intune RBAC Roles](../screenshots/intune/05-intune-rbac-roles.png)
+![Intune RBAC Roles](../screenshots/intune/07-intune-rbac-roles.png)
 
 ---
 
