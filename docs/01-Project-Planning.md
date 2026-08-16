@@ -2,7 +2,7 @@
 
 ## 🎯 Project Overview
 
-This project implements a Microsoft Intune-based endpoint management environment using a Microsoft 365 tenant and three Windows 11 virtual machines hosted on VMware Workstation.
+This project implements a Microsoft Intune-based endpoint management environment using a Microsoft 365 tenant and four Windows 11 virtual machines hosted on VMware Workstation.
 
 The goal is to demonstrate centralized device enrollment, configuration, security, application management, compliance, and monitoring.
 
@@ -34,6 +34,8 @@ The goal is to demonstrate centralized device enrollment, configuration, securit
 | `PRX-WIN11-001` | Damilola Ogunwole | COO |
 | `PRX-WIN11-002` | Stefan Akinnimi | IT Administrator |
 | `PRX-WIN11-003` | Jane Smith | HR Manager |
+| `PRX-WIN11-004` | Micheal Brown | Operations Manager |
+
 
 ## 📌 Scope
 

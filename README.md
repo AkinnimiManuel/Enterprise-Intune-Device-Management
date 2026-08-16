@@ -6,7 +6,7 @@
 
 **Enterprise Intune Device Management** is the second project in the Project Zero enterprise Microsoft 365 lab series.
 
-The project builds a practical endpoint-management environment using Microsoft Intune, Microsoft Entra ID, VMware Workstation, and three Windows 11 virtual machines. The lab is designed to demonstrate how an organization can centrally enroll, configure, secure, monitor, and manage Windows devices from Microsoft Intune.
+The project builds a practical endpoint-management environment using Microsoft Intune, Microsoft Entra ID, VMware Workstation, and four Windows 11 virtual machines. The lab is designed to demonstrate how an organization can centrally enroll, configure, secure, monitor, and manage Windows devices from Microsoft Intune.
 
 This project builds on the identity, Microsoft 365 tenant, licensing, security, and Conditional Access foundation established in the previous **Enterprise Microsoft 365 Deployment** project.
 
@@ -49,6 +49,7 @@ The physical environment consists of one laptop running VMware Workstation with 
 | `PRX-WIN11-001` | Damilola Ogunwole | COO |
 | `PRX-WIN11-002` | Stefan Akinnimi | IT Administrator / Global Administrator |
 | `PRX-WIN11-003` | Jane Smith | HR Manager |
+| `PRX-WIN11-004` | Micheal Brown | Operations Manager |
 
 ### Architecture
 

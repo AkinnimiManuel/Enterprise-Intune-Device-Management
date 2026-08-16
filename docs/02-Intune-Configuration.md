@@ -4,7 +4,7 @@
 
 In this stage, I configured Microsoft Intune as the device management platform for my Microsoft 365 lab environment.
 
-The configuration establishes the foundation required to enroll and manage my three Windows 11 virtual devices.
+The configuration establishes the foundation required to enroll and manage my four Windows 11 virtual devices.
 
 ---
 
@@ -17,7 +17,7 @@ The configuration establishes the foundation required to enroll and manage my th
 | 🆔 Identity | Microsoft Entra ID |
 | 💻 Virtualization | VMware Workstation |
 | 🪟 Operating System | Windows 11 |
-| 🖥️ Devices | PRX-WIN11-001, PRX-WIN11-002, PRX-WIN11-003 |
+| 🖥️ Devices | PRX-WIN11-001, PRX-WIN11-002, PRX-WIN11-003, PRX-WIN11-004 |
 
 ---
 
@@ -151,3 +151,4 @@ The next stage is to enroll:
 - `PRX-WIN11-001` — Damilola Ogunwole
 - `PRX-WIN11-002` — Stefan Akinnimi
 - `PRX-WIN11-003` — Jane Smith
+- `PRX-WIN11-004` — Michaeal Brown
