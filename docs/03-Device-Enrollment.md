@@ -79,7 +79,7 @@ After the join completed, I verified that the device was connected to my organiz
 I then verified the device from the Intune admin center.
 
 1. I opened **Intune admin center → Devices → All devices**.
-2. I searched for `PRX-WIN11-001`.
+2. I clicked on `PRX-WIN11-001`.
 3. I opened the device record.
 4. I confirmed the device appeared in Intune.
 5. I reviewed the device owner, operating system, compliance status, and management information.
@@ -109,13 +109,12 @@ I repeated the same enrollment process for **PRX-WIN11-002**, assigning the devi
 
 ## 7️⃣ Verify All Devices
 
-After enrolling all three devices, I returned to **Intune admin center → Devices → All devices** and confirmed that all three devices were present.
+After enrolling the two devices, I returned to **Intune admin center → Devices → All devices** and confirmed that all three devices were present.
 
 | Device | Assigned User | Intune Status |
 |---|---|---|
 | `PRX-WIN11-001` | Damilola Ogunwole | ✅ Enrolled |
-| `PRX-WIN11-002` | Stefan Akinnimi | ✅ Enrolled |
-| `PRX-WIN11-003` | Jane Smith | ✅ Enrolled |
+| `PRX-WIN11-002` | Stefan Akinnimi | ⌛ |
 
 ### 📸 Screenshot
 
@@ -136,12 +135,11 @@ I verified that:
 
 ## 📌 Result
 
-The three Windows 11 virtual machines are now connected to my Microsoft 365 environment and managed through Microsoft Intune.
+The two Windows 11 virtual machines are now connected to my Microsoft 365 environment and managed through Microsoft Intune.
 
 The enrolled devices are:
 
 - `PRX-WIN11-001` → Damilola Ogunwole
 - `PRX-WIN11-002` → Stefan Akinnimi
-- `PRX-WIN11-003` → Jane Smith
 
 The next stage is **Windows Autopilot**, where I will configure the devices for automated Windows provisioning and deployment.
