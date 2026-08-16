@@ -2,7 +2,7 @@
 
 ## 🎯 Objective
 
-In this stage, I will enroll my Windows 11 virtual devices into **Microsoft Entra ID and Microsoft Intune** using two different enrollment methods.
+In this stage, I enrolled Windows 11 virtual devices into **Microsoft Entra ID and Microsoft Intune** using two different enrollment methods.
 
 I will use the standard **Microsoft Entra Join with automatic Intune enrollment** for `PRX-WIN11-001` and `PRX-WIN11-002`, while `PRX-WIN11-003` and `PRX-WIN11-004` will be enrolled through **Windows Autopilot**. This allows me to demonstrate both standard device enrollment and Autopilot-based provisioning within the same Intune environment.
 
@@ -92,33 +92,54 @@ I then verified the device from the Intune admin center.
 
 ## 5️⃣ Enroll PRX-WIN11-002
 
-I repeated the same enrollment process for **PRX-WIN11-002**, assigning the device to **Stefan Akinnimi**.
+I repeated the enrollment process for PRX-WIN11-002, assigning the device to Stefan Akinnimi. This was also a fresh Windows 11 installation, so I enrolled the device directly during the Windows OOBE.
 
-1. I opened **Settings → Accounts → Access work or school**.
-2. I selected **Connect → Join this device to Microsoft Entra ID**.
-3. I signed in with **Stefan Akinnimi's** Microsoft 365 account.
-4. I completed the Microsoft Entra join.
-5. I signed in to Windows using the assigned account.
-6. I verified the Intune connection from **Access work or school**.
+1. I started PRX-WIN11-002 in VMware Workstation.
+2. I completed the initial Windows 11 setup, including selecting the region and keyboard layout.
+3. After Windows checked for updates, I reached the account setup stage.
+4. I selected Add a work or school account instead of setting up a personal Microsoft account.
+5. I entered Stefan Akinnimi's Microsoft 365 account.
+6. I authenticated the account and selected the option to join the device to Microsoft Entra ID.
+7. I completed the organization setup and Windows OOBE.
 
 ### 📸 Screenshot
 
-![PRX-WIN11-002 Intune Enrollment](../screenshots/enrollment/06-prx-win11-002-intune-enrollment.png)
+
+![PRX-WIN11-002 Add Work or School Account](../screenshots/enrollment/05-prx-win11-002-add-work-school-account.png)
+
+![PRX-WIN11-002 Microsoft Entra ID Join](../screenshots/enrollment/05-prx-win11-002-entra-id-join.png)
+
+---
+
+## 6️⃣ Verify PRX-WIN11-002
+
+After the join completed, I verified that the device was connected to my organization's Microsoft Entra ID and enrolled for management.
+
+1. I opened **Settings → Accounts → Access work or school**.
+2. I selected the organization connection.
+3. I confirmed that the device was connected to Microsoft Entra ID.
+4. I selected **Info** to view the management information and confirm the MDM connection.
+
+### 📸 Screenshot
+
+![PRX-WIN11-002 Intune Connection](../screenshots/enrollment/06-prx-win11-002-intune-connection.png)
+
+![PRX-WIN11-002 MDM Info](../screenshots/enrollment/06-prx-win11-002-intune-connection-1.png)
 
 ---
 
 ## 7️⃣ Verify All Devices
 
-After enrolling the two devices, I returned to **Intune admin center → Devices → All devices** and confirmed that all three devices were present.
+After enrolling the two devices, I returned to **Intune admin center → Devices → All devices** and confirmed that the two devices were present.
 
 | Device | Assigned User | Intune Status |
 |---|---|---|
 | `PRX-WIN11-001` | Damilola Ogunwole | ✅ Enrolled |
-| `PRX-WIN11-002` | Stefan Akinnimi | ⌛ |
+| `PRX-WIN11-002` | Stefan Akinnimi | ✅ Enrolled |
 
 ### 📸 Screenshot
 
-![All Intune Lab Devices](../screenshots/enrollment/08-all-intune-lab-devices.png)
+![All Intune Lab Devices](../screenshots/enrollment/07-all-intune-lab-devices.png)
 
 ---
 
@@ -126,8 +147,8 @@ After enrolling the two devices, I returned to **Intune admin center → Devices
 
 I verified that:
 
-- ✅ All three Windows 11 VMs were Microsoft Entra joined.
-- ✅ All three devices were enrolled in Microsoft Intune.
+- ✅ The two Windows 11 VMs were Microsoft Entra joined.
+- ✅ The devices were enrolled in Microsoft Intune.
 - ✅ Each device was assigned to the intended user.
 - ✅ The devices appeared in **Intune → Devices → All devices**.
 - ✅ I could view the MDM connection from Windows.
@@ -135,11 +156,12 @@ I verified that:
 
 ## 📌 Result
 
-The two Windows 11 virtual machines are now connected to my Microsoft 365 environment and managed through Microsoft Intune.
+The Windows 11 virtual machines are now connected to my Microsoft 365 environment and managed through Microsoft Intune.
 
 The enrolled devices are:
 
 - `PRX-WIN11-001` → Damilola Ogunwole
 - `PRX-WIN11-002` → Stefan Akinnimi
 
-The next stage is **Windows Autopilot**, where I will configure the devices for automated Windows provisioning and deployment.
+The next stage is **Windows Autopilot**, where I will configure `PRX-WIN11-003` and `PRX-WIN11-004` to demonstrate user-driven and pre-provisioned Windows deployment.
+
