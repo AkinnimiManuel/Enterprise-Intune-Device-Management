@@ -70,6 +70,8 @@ After the join completed, I verified that the device was connected to my organiz
 
 ![PRX-WIN11-001 Intune Connection](../screenshots/enrollment/04-prx-win11-001-intune-connection.png)
 
+![PRX-WIN11-001 MDM Info](../screenshots/enrollment/04-prx-win11-001-intune-connection-1.png)
+
 ---
 
 ## 4️⃣ Verify PRX-WIN11-001 in Intune
