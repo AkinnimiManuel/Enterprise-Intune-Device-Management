@@ -110,7 +110,7 @@ I created a Windows Autopilot deployment profile for the two devices.
 4. I named the profile:
 
 ```text
-PRX-Windows11-UserDriven
+PRX_Windows11_UserDriven
 ```
 
 5. I selected **User-driven** as the deployment mode.
@@ -128,7 +128,7 @@ PRX-Windows11-UserDriven
 
 ## 6️⃣ Configure the Enrollment Status Page
 
-I configured an **Enrollment Status Page (ESP)** profile so I could control the deployment experience while Intune applications and policies were being applied.
+I configured an **Enrollment Status Page (ESP)** `PRX_Enrollment_Status_Page` profile so I could control the deployment experience while Intune applications and policies were being applied.
 
 I assigned the ESP to the Autopilot devices.
 
