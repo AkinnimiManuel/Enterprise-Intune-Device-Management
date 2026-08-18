@@ -19,14 +19,14 @@ Detailed implementation notes, configuration decisions, procedures, and validati
 | 01 | [`Project Planning`](./docs/01-Project-Planning.md) | ✅ Completed |
 | 02 | [`Intune Configuration`](./docs/02-Intune-Configuration.md) | ✅ Conpleted |
 | 03 | [`Device Enrollment`](./docs/03-Device-Enrollment.md) | ✅ Completed |
-| 04 | [`Windows Autopilot`](./docs/04-Windows-Autopilot.md) | ✅ Completed
-| 05 | [`Device Configuration`](./docs/05-Device-Configuration.md) | ⌛ In-Progress
-| 06 | [`Compliance Policies`](./docs/06-Compliance-Policies.md) |
-| 07 | [`Conditional Access Integration`](./docs/07-Conditional-Access-Integration.md) |
-| 08 | [`Endpoint Security`](./docs/08-Endpoint-Security.md) |
-| 09 | [`Application Management`](./docs/09-Application-Management.md) |
-| 10 | [`Device Management`](./docs/10-Device-Management.md) |
-| 11 | [`Monitoring and Operations`](./docs/11-Monitoring-and-Operations.md) |
+| 04 | [`Windows Autopilot`](./docs/04-Windows-Autopilot.md) | ✅ Completed |
+| 05 | [`Device Configuration`](./docs/05-Device-Configuration.md) | ⌛ In-Progress |
+| 06 | [`Compliance Policies`](./docs/06-Compliance-Policies.md) | Planned |
+| 07 | [`Conditional Access Integration`](./docs/07-Conditional-Access-Integration.md) | Planned |
+| 08 | [`Endpoint Security`](./docs/08-Endpoint-Security.md) | Planned |
+| 09 | [`Application Management`](./docs/09-Application-Management.md) | Planned |
+| 10 | [`Device Management`](./docs/10-Device-Management.md) | Planned |
+| 11 | [`Monitoring and Operations`](./docs/11-Monitoring-and-Operations.md) | Planned |
 
 
 ## Objectives
