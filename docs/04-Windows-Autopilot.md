@@ -191,6 +191,8 @@ I reset `PRX-WIN11-003` so that it returned to the Windows Out-of-Box Experience
 
 ![PRX-WIN11-003 Completed Deployment](../screenshots/autopilot/13-prx-win11-003-completed.png)
 
+![PRX-WIN11-003 Completed Deployment](../screenshots/autopilot/17-prx-win11-003-intune-managed.png) 
+
 ---
 
 ## 🔟 Deploy PRX-WIN11-004
@@ -210,8 +212,11 @@ I repeated the same user-driven Autopilot deployment process for `PRX-WIN11-004`
 
 ![PRX-WIN11-004 Autopilot OOBE](../screenshots/autopilot/14-prx-win11-004-autopilot-oobe.png)
 
-![PRX-WIN11-004 Completed Deployment](../screenshots/autopilot/15-prx-win11-004-completed.png)
+![PRX-WIN11-004 Enrollment Status Page](../screenshots/autopilot/15-prx-win11-004-esp.png)
 
+![PRX-WIN11-004 Completed Deployment](../screenshots/autopilot/16-prx-win11-004-completed.jpg)
+
+![PRX-WIN11-004 Intune Managed](../screenshots/autopilot/18-prx-win11-004-intune-managed.png) 
 ---
 
 ## ✅ Validation
