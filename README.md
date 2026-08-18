@@ -54,23 +54,23 @@ The physical environment consists of one laptop running VMware Workstation with 
 ### Architecture
 
 ```text
-                        Microsoft 365 Tenant
-                                |
-                    +-----------+-----------+
-                    |                       |
-              Microsoft Entra ID       Microsoft Intune
-                    |                       |
-                    +-----------+-----------+
-                                |
-                        Managed Windows 11
-                              Devices
-                                |
-              +-----------------+-----------------+
-              |                 |                 |
-              v                 v                 v
-       PRX-WIN11-001     PRX-WIN11-002     PRX-WIN11-003
-         Damilola            Stefan             Jane
-            COO            IT Administrator     HR Manager
+                                    Microsoft 365 Tenant
+                                            |
+                                +-----------+-----------+
+                                |                       |
+                          Microsoft Entra ID       Microsoft Intune
+                                |                       |
+                                +-----------+-----------+
+                                            |
+                                    Managed Windows 11
+                                          Devices
+                                            |
+              +-----------------+-------------------------------------+
+              |                 |                 |                   |
+              v                 v                 v                   v
+       PRX-WIN11-001     PRX-WIN11-002     PRX-WIN11-003          PRX-WIN11-004
+         Damilola            Stefan             Jane                Micheal
+            COO            IT Administrator     HR Manager         Operations Manager
 ```
 
 ## Project Scope
