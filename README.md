@@ -14,7 +14,7 @@ This project builds on the identity, Microsoft 365 tenant, licensing, security, 
 
 Detailed implementation notes, configuration decisions, procedures, and validation results are maintained in the [`docs`](./docs) directory.
 
-| # | Documentation |
+| Phase | Documentation | Status |
 |---|---|---|
 | 01 | [`Project Planning`](./docs/01-Project-Planning.md) | ✅ Completed |
 | 02 | [`Intune Configuration`](./docs/02-Intune-Configuration.md) | ✅ Conpleted |
