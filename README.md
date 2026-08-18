@@ -12,13 +12,15 @@ This project builds on the identity, Microsoft 365 tenant, licensing, security, 
 
 ## 📚 Project Documentation
 
+Detailed implementation notes, configuration decisions, procedures, and validation results are maintained in the [`docs`](./docs) directory.
+
 | # | Documentation |
 |---|---|
-| 01 | [`Project Planning`](./docs/01-Project-Planning.md) |
-| 02 | [`Intune Configuration`](./docs/02-Intune-Configuration.md) |
-| 03 | [`Device Enrollment`](./docs/03-Device-Enrollment.md) |
-| 04 | [`Windows Autopilot`](./docs/04-Windows-Autopilot.md) |
-| 05 | [`Device Configuration`](./docs/05-Device-Configuration.md) |
+| 01 | [`Project Planning`](./docs/01-Project-Planning.md) | ✅ Completed |
+| 02 | [`Intune Configuration`](./docs/02-Intune-Configuration.md) | ✅ Conpleted |
+| 03 | [`Device Enrollment`](./docs/03-Device-Enrollment.md) | ✅ Completed |
+| 04 | [`Windows Autopilot`](./docs/04-Windows-Autopilot.md) | ✅ Completed
+| 05 | [`Device Configuration`](./docs/05-Device-Configuration.md) | ⌛ In-Progress
 | 06 | [`Compliance Policies`](./docs/06-Compliance-Policies.md) |
 | 07 | [`Conditional Access Integration`](./docs/07-Conditional-Access-Integration.md) |
 | 08 | [`Endpoint Security`](./docs/08-Endpoint-Security.md) |
@@ -218,29 +220,12 @@ At the completion of this project, the three Windows 11 virtual devices should b
 - Device administration
 - Monitoring and troubleshooting
 
-## Documentation
-
-Detailed implementation notes, configuration decisions, procedures, and validation results are maintained in the [`docs`](./docs) directory.
-
-Start here:
-
-1. [`Project Planning`](./docs/01-Project-Planning.md)
-2. [`Intune Configuration`](./docs/02-Intune-Configuration.md)
-3. [`Device Enrollment`](./docs/03-Device-Enrollment.md)
-4. [`Windows Autopilot`](./docs/04-Windows-Autopilot.md)
-5. [`Device Configuration`](./docs/05-Device-Configuration.md)
-6. [`Compliance Policies`](./docs/06-Compliance-Policies.md)
-7. [`Conditional Access Integration`](./docs/07-Conditional-Access-Integration.md)
-8. [`Endpoint Security`](./docs/08-Endpoint-Security.md)
-9. [`Application Management`](./docs/09-Application-Management.md)
-10. [`Device Management`](./docs/10-Device-Management.md)
-11. [`Monitoring and Operations`](./docs/11-Monitoring-and-Operations.md)
 
 ## Status
 
 **Project:** In Progress  
 **Environment:** Microsoft 365 + Microsoft Intune + VMware Workstation  
-**Devices:** 3 Windows 11 virtual machines
+**Devices:** 4 Windows 11 virtual machines
 
 ---
 
