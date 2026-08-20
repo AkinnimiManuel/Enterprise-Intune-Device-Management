@@ -208,7 +208,7 @@ Enterprise Intune Device Management
 
 ## Expected Outcome
 
-At the completion of this project, the three Windows 11 virtual devices should be centrally managed through Microsoft Intune with documented configuration for:
+At the completion of this project, the four Windows 11 virtual devices should be centrally managed through Microsoft Intune with documented configuration for:
 
 - Enrollment and device identity
 - Configuration profiles

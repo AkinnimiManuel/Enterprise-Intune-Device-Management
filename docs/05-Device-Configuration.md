@@ -40,7 +40,7 @@ PRX-Windows11-Configuration
 
 ---
 
-## 2️⃣ Configure General Windows Settings
+## 2️⃣ Add General Windows Settings
 
 I used the Settings Catalog to configure general Windows settings for the managed devices.
 
@@ -60,7 +60,7 @@ I kept these settings focused on creating a consistent business workstation expe
 
 ---
 
-## 3️⃣ Configure Sign-In and User Experience
+## 3️⃣ Add Sign-In and User Experience
 
 I configured general sign-in and user experience settings that belong in device configuration.
 
